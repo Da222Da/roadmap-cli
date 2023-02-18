@@ -1,0 +1,33 @@
+{
+  "name": "@roadmap-cli/core",
+  "version": "0.0.0",
+  "description": "> TODO: description",
+  "author": "Replit user",
+  "homepage": "",
+  "license": "ISC",
+  "main": "lib/core.js",
+  "directories": {
+    "lib": "lib",
+    "test": "__tests__"
+  },
+  "files": [
+    "lib"
+  ],
+  "publishConfig": {
+    "access": "public"
+  },
+  "repository": {
+    "type": "git",
+    "url": ""
+  },
+  "scripts": {
+    "test": "node ./__tests__/core.test.js"
+  },
+  "bugs": {
+    "url": ""
+  },
+  "dependencies": {
+    "glob": "^8.1.0",
+    "jquery": "^3.6.3"
+  }
+}
